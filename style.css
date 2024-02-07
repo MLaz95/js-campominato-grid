@@ -8,8 +8,10 @@
 .container{
     width: 1000px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding: 100px 0;
+}
 
+#grid{
     display: flex;
     flex-flow: row wrap;
 }

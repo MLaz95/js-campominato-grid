@@ -9,7 +9,7 @@ buttonElement.addEventListener('click', function(){
     // records grid size from difficulty selector
     let gridSize = difficultyElement.value;
 
-    // adds cells till the grid size limit is reached
+    // adds cells until the grid size limit is reached
     for(i = 1; i <= gridSize; i++){
         const newCell = document.createElement('div');
         newCell.classList.add('cell');

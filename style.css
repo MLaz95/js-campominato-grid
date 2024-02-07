@@ -6,19 +6,12 @@ body{
 #container{
     width: 800px;
     margin: 0 auto;
-    padding: 100px 0;
-
     background-color: rgba(0, 0, 0, 0.2);
-}
-
-#grid{
-    display: flex;
-    flex-flow: row wrap;
 }
 
 .cell{
     aspect-ratio: 1 / 1;
-    border: solid 1px #F9EBE0;
+    border: solid 1px white;
     color: white;
     background-color: #107E7D;
 
@@ -27,6 +20,7 @@ body{
     align-items: center;
 }
 
+/* cell size adjust based on grid size */
 .easy{
     width: calc(100% / 7);
 }

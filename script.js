@@ -15,7 +15,7 @@ buttonElement.addEventListener('click', function(){
         newCell.classList.add('cell');
 
         // adds a different class to determine the size of each cell depending on grid size
-        if (gridSize == 49){
+        if (gridSize == 100){
             newCell.classList.add('easy');
         } else if (gridSize == 81){
             newCell.classList.add('medium');

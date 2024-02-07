@@ -22,13 +22,13 @@ body{
 
 /* cell size adjust based on grid size */
 .easy{
-    width: calc(100% / 7);
+    width: calc(100% / 10);
 }
 .medium{
     width: calc(100% / 9);
 }
 .hard{
-    width: calc(100% / 10);
+    width: calc(100% / 7);
 }
 
 .active{
